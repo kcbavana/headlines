@@ -158,3 +158,29 @@ a {
     margin-top: 5%;
     
 }
+
+input[type='text']{
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  line-height: 1.4em;
+  padding: 0.5rem 0.5rem;
+
+}
+input:focus {
+    outline:none;
+}
+#reply {
+  width: 100%;
+  height: 5rem;
+  box-sizing: border-box;
+  border: 2px solid var(--gray);
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+.commentSection {
+    margin:10% 20% 10% 20%;
+}
+.commentButton {
+    float:right;
+}

@@ -45,14 +45,21 @@
         </div>
 
         <div class="commentSection">
-            <h3>Share your thoughts...</h3>
             <form action="" method="post" class="commentForm">
-                <label for="author" class="required">Comment</label>
-                <input type="text" name="author" id="author" rows="10" tabindex="1" required="required">
-            
+                <input type="text" name="reply" id="reply" 
+                value="share your thoughts..." style="color: #737171;" onfocus=" this.value='';"
+                rows="10" tabindex="1" required="required">
+                <h4 class="primaryButton commentButton">Comment</h4>
             </form>
-            <div class="prevComments">
 
+            <div class="prevComments">
+                <p><b>Name</b></p> 
+                <div class="commentContent">
+
+                </div>
+                <div class="upDownVote">
+                    
+                </div>
             </div>
             
         </div>
