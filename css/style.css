@@ -6,19 +6,27 @@
 
 .header {
     background-color: var(--white);
-    width: 100%
+    width: 100%;
+    margin: auto;
+    
 }
 
 .title {
     color: var(--black);
+    padding-top:0.8rem;
 }
 
 #first {
     color: var(--green);
+    float: left;
+
+}
+.H {
+    color: var(--green);
 }
 
 .buttons {
-    width: 100%
+    float: right;
 }
 
 .login {
@@ -27,9 +35,12 @@
     text-align: center;
     border-radius: 10rem;
     font-family: 'Cabin', sans-serif;
-    padding-top: 1rem;
-    width: 5%;
+    padding-top: 0.8rem;
+    width: 8rem;
     height: 2rem;
+    border:0.15rem solid var(--green);
+    float: left;
+
 
 }
 
@@ -38,8 +49,11 @@
     color: var(--white);
     text-align: center;
     font-family: 'Cabin', sans-serif;
-    padding-top: 1rem;
+    padding-top: 0.8rem;
+    margin-left: 1rem;
     border-radius: 10rem;
-    width: 5%;
-    height: 2rem;
+    width: 8rem;
+    height:2rem;
+    border:0.15rem solid var(--green);
+    float: right;
 }
