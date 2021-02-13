@@ -50,6 +50,7 @@ a {
 
 }
 
+
 .secondaryButton {
     background-color: var(--white);
     color: var(--green);
@@ -79,8 +80,9 @@ a {
 }
 .signup {
     float:left;
-    
 }
+
+
 /*HOME*/
 /*Hero Section*/
 .hero {
