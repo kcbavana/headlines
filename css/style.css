@@ -26,8 +26,19 @@ h4 {
 a {
     color: var(--green);
     text-decoration:none;
+    text-align: center;
 }
 
+.current0 a {
+    color:var(--white);
+    list-style-type: none;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
 /*nav bar*/
 .header {
     margin-right:10%;
