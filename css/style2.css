@@ -143,9 +143,10 @@ h4 {
     justify-content:center; 
     width: 60%;
     margin:auto;
+    margin-bottom: 3%
 }
 .vote {
-    margin-right:5%;
+    margin: 2rem;
 }
 
 .voting {
