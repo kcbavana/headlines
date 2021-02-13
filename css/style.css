@@ -2,58 +2,115 @@
     --white: #FBFBFB;
     --green: #1FAA91;
     --black: #041F1A;
+    --gray: #E4E3E3;
+    --light-gray: #F3F3F4;
+    --dark-gray: #737171;
+    --light-green: #E0F2EF; 
+    --medium-gray:#ADADAD; 
+}
+body {
+    font-family: 'Cabin', sans-serif;
+    color: var(--black);
+    
+    background-color:var(--white);
+    
+}
+/*general fonts*/
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1rem;
 }
 
+/*nav bar*/
 .header {
-    background-color: var(--white);
-    width: 100%;
-    margin: auto;
-    
+    margin-right:10%;
+    margin-left:10%;
+
 }
 
 .title {
     color: var(--black);
-    padding-top:0.8rem;
-}
-
-#first {
-    color: var(--green);
     float: left;
-
+    
 }
-.H {
+
+.accentText {
     color: var(--green);
 }
 
 .buttons {
     float: right;
+
 }
 
-.login {
+.secondaryButton {
     background-color: var(--white);
     color: var(--green);
     text-align: center;
     border-radius: 10rem;
-    font-family: 'Cabin', sans-serif;
     padding-top: 0.8rem;
     width: 8rem;
     height: 2rem;
     border:0.15rem solid var(--green);
-    float: left;
-
-
+    
 }
 
-.signup {
+.primaryButton {
     background-color: var(--green);
     color: var(--white);
     text-align: center;
-    font-family: 'Cabin', sans-serif;
     padding-top: 0.8rem;
-    margin-left: 1rem;
     border-radius: 10rem;
     width: 8rem;
     height:2rem;
     border:0.15rem solid var(--green);
-    float: right;
+  
+}
+.login {
+    float:right;
+    margin-left: 1rem;
+}
+.signup {
+    float:left;
+    
+}
+/*HOME*/
+/*Hero Section*/
+.hero {
+    padding-top: 15%;
+    padding-bottom: 8%;
+    text-align:center;
+}
+.mainCTA {
+    margin: auto;
+}
+
+/*List of Headlines*/
+
+.news {
+    margin: 5% 20% 5% 20%;
+
+}
+
+.headlineCard {
+    margin-bottom: 1%;
+    border:0.15rem solid var(--light-gray);
+    border-radius: 0.5rem;
+    width: 80%;
+    padding: 1rem 0 1rem 2rem;
+ 
+}
+
+/*FOOTER*/
+.footer {
+    margin-right: 0%;
+    margin-left: 0%;
+    background-color: var(--black);
+    padding:0.5rem 0rem 0.5rem 0rem;
+}
+.footer h5 {
+    color: var(--white);
+    text-align:center;
 }
