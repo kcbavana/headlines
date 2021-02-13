@@ -8,7 +8,7 @@
     <body style="background-color:#F3F3F4;">
         <div class = "header">
             <div class="container">
-                <h3 class="title"><span class="accentText">H</span>eadline</h3>
+                <h3 class="title"><a href="default.html"><span class="accentText">H</span>eadline</a></h3>
                 <div class = "buttons">
                     <h4 class="secondaryButton login">Log in</h4>
                     <h4 class="primaryButton signup">Sign Up</h4>
@@ -18,7 +18,7 @@
         </div>
 
         <div class="articleTitle">
-            <h4>Back to all Headlines.</h4>
+            <a href="default.html"><h4>Back to all Headlines.</h4></a>
             <h1>[Article Title] Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
             <p><b>Posted on January 1, 2021</b></p>
         </div>
@@ -39,15 +39,22 @@
             <div class="votingButtons">
                 <h4 class="secondaryButton vote">Support</h4>
                 <h4 class="secondaryButton vote">Neutral</h4>
-                <h4 class="secondaryButton vote">Disapprove</h4>
+                <h4 class="secondaryButton vote vote3">Disapprove</h4>
             </div>
             <canvas id="votingChart" width="600" height="200"></canvas>
         </div>
 
-        <div class="articleTitle">
-            <h4>Back to all Headlines.</h4>
-            <h1>[Article Title] Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-            <p><b>Posted on January 1, 2021</b></p>
+        <div class="commentSection">
+            <h3>Share your thoughts...</h3>
+            <form action="" method="post" class="commentForm">
+                <label for="author" class="required">Comment</label>
+                <input type="text" name="author" id="author" rows="10" tabindex="1" required="required">
+            
+            </form>
+            <div class="prevComments">
+
+            </div>
+            
         </div>
         
         <div class="footer">

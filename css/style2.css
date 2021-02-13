@@ -103,6 +103,10 @@ h4 {
 .headlines {
     background-color: (--light-gray);
 }
+a {
+    text-decoration: none;
+    color: var(--black);
+}
 /*Individual Headline Page*/
 .articleTitle {
     padding: 10% 20% 2% 20%;
