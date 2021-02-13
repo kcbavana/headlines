@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,160 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+:root {
+  --white: #FBFBFB;
+  --green: #1FAA91;
+  --black: #041F1A;
+  --gray: #E4E3E3;
+  --light-gray: #F3F3F4;
+  --dark-gray: #737171;
+  --light-green: #E0F2EF; 
+  --medium-gray:#ADADAD; 
+}
+
+main {
+  font-family: 'Cabin', sans-serif;
+  color: var(--black);
+  background-color:var(--white);
+}
+
+/*general fonts*/
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1rem;
+}
+
+/*nav bar*/
+.header {
+  margin-right:10%;
+  margin-left:10%;
+
+}
+
+.title {
+  color: var(--black);
+  float: left;
+  
+}
+
+.accentText {
+  color: var(--green);
+}
+
+.buttons {
+  float: right;
+
+}
+
+.secondaryButton {
+  background-color: var(--white);
+  color: var(--green);
+  text-align: center;
+  border-radius: 10rem;
+  padding-top: 0.8rem;
+  width: 8rem;
+  height: 2rem;
+  border:0.15rem solid var(--green);
+  
+}
+
+.primaryButton {
+  background-color: var(--green);
+  color: var(--white);
+  text-align: center;
+  padding-top: 0.8rem;
+  border-radius: 10rem;
+  width: 8rem;
+  height:2rem;
+  border:0.15rem solid var(--green);
+  padding: 10px;
+
+}
+.login {
+  float:right;
+  margin-left: 1rem;
+}
+.signup {
+  float:left;
+  
+}
+/*HOME*/
+/*Hero Section*/
+.hero {
+  padding-top: 15%;
+  padding-bottom: 8%;
+  text-align:center;
+}
+.mainCTA {
+  margin: auto;
+}
+
+/*FOOTER*/
+.footer {
+  margin-right: 0%;
+  margin-left: 0%;
+  background-color: var(--black);
+  padding:0.5rem 0rem 0.5rem 0rem;
+}
+.footer h5 {
+  color: var(--white);
+  text-align:center;
+}
+
+/*Everything above this line is already in style.css*/
+
+/*Individual Headline Page*/
+.articleTitle {
+  margin: 10% 10% 10% 10%;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: var(--black);
+  
+  background-color:var(--white);
+  
+}
+
+/*nav bar*/
+.header {
+  margin-right:10%;
+  margin-left:10%;
+
+}
+
+.accentText {
+  color: var(--green);
+}
+
+/*List of Headlines*/
+
+.news {
+  margin: 5% 20% 5% 20%;
+
+}
+
+.headlineCard {
+  margin-bottom: 1%;
+  border:0.15rem solid var(--light-gray);
+  border-radius: 0.5rem;
+  width: 80%;
+  padding: 1rem 0 1rem 2rem;
+
+}
+
+/*FOOTER*/
+.footer {
+  margin-right: 0%;
+  margin-left: 0%;
+  background-color: var(--black);
+  padding:0.5rem 0rem 0.5rem 0rem;
+}
+.footer h5 {
+  color: var(--white);
+  text-align:center;
 }
