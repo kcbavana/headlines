@@ -100,8 +100,56 @@ h4 {
 }
 
 /*Everything above this line is already in style.css*/
-
+.headlines {
+    background-color: (--light-gray);
+}
 /*Individual Headline Page*/
 .articleTitle {
-    margin: 10% 10% 10% 10%;
+    padding: 10% 20% 2% 20%;
+}
+.articleTitle h4{
+    text-decoration: underline; 
+}
+.articleTitle p {
+    color: var(--dark-gray);
+}
+
+.sources h4 {
+    color: var(--green);
+}
+
+.sourceCard {
+    background-color: var(--white);
+    width: 25%;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+
+}
+
+.sources {
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    
+}
+
+.source1 {
+    margin-right: 3%;
+}
+
+.votingButtons {
+    display:flex;
+    flex-direction:row; 
+    justify-content:center; 
+    width: 60%;
+    margin:auto;
+}
+.vote {
+    margin-right:5%;
+}
+
+.voting {
+    text-align:center;
+    margin-top: 5%;
+    
 }

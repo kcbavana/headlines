@@ -2,8 +2,10 @@
 <html lang = "eng" dir ="ltr">
     <head>
         <link rel="stylesheet" href="./css/style2.css" media="screen"/>
+        <script src="./node_modules/chart.js/dist/Chart.js"></script>
+        <script src="./js/chart.js"></script>
     </head>
-    <body>
+    <body style="background-color:#F3F3F4;">
         <div class = "header">
             <div class="container">
                 <h3 class="title"><span class="accentText">H</span>eadline</h3>
@@ -18,28 +20,36 @@
         <div class="articleTitle">
             <h4>Back to all Headlines.</h4>
             <h1>[Article Title] Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-            <p>Posted on January 1, 2021</p>
+            <p><b>Posted on January 1, 2021</b></p>
         </div>
         <div class="sources">
-            <div class="source1">
+            <div class="sourceCard source1">
                 <h4>New York Times</h4>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non.</p>
             </div>
-            <div class="source2">
+            <div class="sourceCard source2">
                 <h4>Wall Street Journal</h4>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non.</p>
             </div>
 
         </div>
+
+        <div class="voting">
+            <h3>This is what I think...</h3>
+            <div class="votingButtons">
+                <h4 class="secondaryButton vote">Support</h4>
+                <h4 class="secondaryButton vote">Neutral</h4>
+                <h4 class="secondaryButton vote">Disapprove</h4>
+            </div>
+            <canvas id="pie-chart" width="300" height="300"></canvas>
+        </div>
+
+        <div class="articleTitle">
+            <h4>Back to all Headlines.</h4>
+            <h1>[Article Title] Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+            <p><b>Posted on January 1, 2021</b></p>
+        </div>
         
-
-
-
-
-
-
-
-
         <div class="footer">
             <h5>Tree Hacks 2021</h5>
         </div>
