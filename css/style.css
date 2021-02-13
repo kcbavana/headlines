@@ -1,0 +1,45 @@
+:root {
+    --white: #FBFBFB;
+    --green: #1FAA91;
+    --black: #041F1A;
+}
+
+.header {
+    background-color: var(--white);
+    width: 100%
+}
+
+.title {
+    color: var(--black);
+}
+
+#first {
+    color: var(--green);
+}
+
+.buttons {
+    width: 100%
+}
+
+.login {
+    background-color: var(--white);
+    color: var(--green);
+    text-align: center;
+    border-radius: 10rem;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 1rem;
+    width: 5%;
+    height: 2rem;
+
+}
+
+.signup {
+    background-color: var(--green);
+    color: var(--white);
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 1rem;
+    border-radius: 10rem;
+    width: 5%;
+    height: 2rem;
+}
