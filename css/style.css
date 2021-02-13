@@ -88,6 +88,10 @@ ul {
 .login {
     float:right;
     margin-left: 1rem;
+    
+}
+.login a {
+    color: var(--green);
 }
 .signup {
     float:left;
@@ -103,6 +107,7 @@ ul {
 }
 .mainCTA {
     margin: auto;
+    color:var(--white);
 }
 
 /*List of Headlines*/
@@ -194,3 +199,138 @@ ul {
     text-align:center;
 }
 
+
+.headlines {
+    background-color: (--light-gray);
+}
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+/*Individual Headline Page*/
+.articleTitle {
+    padding: 10% 20% 2% 20%;
+}
+.articleTitle h4{
+    text-decoration: underline; 
+}
+.articleTitle p {
+    color: var(--dark-gray);
+}
+.articleTitle a {
+    text-align:left;
+}
+
+.sources h4 {
+    color: var(--green);
+}
+
+.sourceCard {
+    background-color: var(--white);
+    width: 25%;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+
+}
+
+.sources {
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    
+}
+
+.source1 {
+    margin-right: 3%;
+}
+
+.votingButtons {
+    display:flex;
+    flex-direction:row; 
+    justify-content:center; 
+    width: 60%;
+    margin:auto;
+    margin-bottom: 3%
+}
+.vote {
+    margin: 2rem;
+}
+
+.voting {
+    text-align:center;
+    margin-top: 5%;
+    
+}
+
+input[type='text']{
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  line-height: 1.4em;
+  padding: 0.5rem 0.5rem;
+
+}
+input:focus {
+    outline:none;
+}
+#reply {
+  width: 100%;
+  height: 5rem;
+  box-sizing: border-box;
+  border: 2px solid var(--gray);
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+.commentSection {
+    margin:10% 20% 10% 20%;
+}
+.commentButton {
+    float:right;
+}
+
+.commentContent {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+.commentContent a {
+    color: var(--green);
+    
+}
+
+.prevComments {
+    margin-top: 20%;
+    width: 100%;
+}
+.prevComment {
+    padding-bottom: 2rem;
+}
+hr { 
+    height: 1px;
+    background-color: var(--gray);
+    border: none;
+}
+
+.commentText {
+    margin-left: 3rem;
+    margin-right: 35%;
+
+}
+
+.arrows {
+    display:flex; 
+    flex-direction: column;
+}
+
+.bottomArrow {
+    padding-top: 1rem;
+}
+.upDownVote {
+    display:flex;
+    flex-direction: row;
+}
+.score {
+    padding-left: 1rem;
+    margin: auto;
+    color: var(--dark-gray);
+}
