@@ -31,6 +31,7 @@ export default class Default extends Component {
                 <div className="hero">
                 <h1>Get the <span className="accentText ">Full Picture</span> on Daily Headlines</h1>
                 <h4>Stay up to date and make your perspective heard.</h4>
+                <Link to="/signup"><h4 className="primaryButton mainCTA">Let's Go!</h4></Link>
                 <h4 className="primaryButton mainCTA">Let's Go!</h4>
                 </div>
                 <div className="news">

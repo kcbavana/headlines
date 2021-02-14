@@ -5,6 +5,7 @@ import downArrowGray from './images/downArrowGray.png';
 import upArrowGray from './images/upArrowGray.png';
 import downArrowGreen from './images/downArrowGreen.png';
 import upArrowGreen from './images/upArrowGreen.png';
+// import pieChart from "./components/PieChart";
 
 export default class Login extends Component {
     constructor(props) {

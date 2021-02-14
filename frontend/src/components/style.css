@@ -44,6 +44,7 @@ a {
 }
 a:hover {
     text-decoration:none;
+    color: var(--green);
 }
 .current0 a {
     color:var(--white);
