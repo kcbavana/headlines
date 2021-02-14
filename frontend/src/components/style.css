@@ -9,6 +9,7 @@
     --dark-gray: #737171;
     --light-green: #E0F2EF;
     --medium-gray:#ADADAD;
+    min-height: 100vh;
 }
 body {
     font-family: 'Cabin', sans-serif;
