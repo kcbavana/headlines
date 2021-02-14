@@ -52,14 +52,18 @@ export default class Default extends Component {
               <h3>Today's Headlines</h3>
             </div>
             <div class="headlines">
-              <h5 class="headlineCard">Sample Headline</h5>
+                <Link to='/headlines'>
+                    <h4 class="headlineCard">Sample Headline</h4>
+                </Link>
             </div>
           </div>
 
           <div class="past">
             <h3 class="titleLeft">Past Headlines</h3>
             <div class="headlines">
-              <h5 class="headlineCard">Sample Headline</h5>
+                <Link to='/headlines'>
+                  <h4 class="headlineCard">Sample Headline</h4>
+                </Link>
             </div>
           </div>
         </div>
