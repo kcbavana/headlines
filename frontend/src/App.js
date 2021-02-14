@@ -5,6 +5,7 @@ import axios from "axios";
 import Login from "./components/Login";
 import Default from "./components/Default";
 import Headline from "./components/Headline";
+import Signup from "./components/Signup";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
@@ -23,6 +24,9 @@ class App extends Component {
   componentDidMount() {
     this.refreshList();
   }
+  test() {
+    return "This is a test";
+  };
   refreshList = () => {
     axios
       .get("http://localhost:8000/api/todos/")
@@ -121,6 +125,7 @@ class App extends Component {
         <main>
           <Switch>
             <Route path='/' component={Default} exact />
+            <Route path='/signup' component={Signup} />
             <Route path='/login' component={Login} />
             <Route path='/headlines' component={Headline} />
           </Switch>

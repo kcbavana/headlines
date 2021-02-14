@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import './style.css';
 
 export default class Login extends Component {
@@ -11,9 +12,9 @@ export default class Login extends Component {
             <div>
             <div className="header">
             <div className="container">
-                <h3 className="title"><span className="accentText">H</span>eadline</h3>
+                <Link to='/'><h3 className="title"><span className="accentText">H</span>eadline</h3></Link>
                 <div className="buttons">
-                <button className="primaryButton signup">Sign Up</button>
+                <Link to="/signup"><h4 className="primaryButton signup">Sign Up</h4></Link>
                 </div>
             </div>
             </div>

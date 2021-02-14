@@ -16,14 +16,18 @@ export default class Default extends Component {
               <span class="accentText">H</span>eadline
             </h3>
             <div class="buttons">
-              <h4 class="secondaryButton login">
-                <a href="login.html">Log in</a>
-              </h4>
-              <h4 class="primaryButton signup">
-                <ul class="current0">
-                  <a href="signup.html">Sign Up</a>
-                </ul>
-              </h4>
+              <Link to='/login'>
+                  <h4 class="secondaryButton login">
+                    Log in
+                </h4>
+                </Link>
+              <Link to='/signup'>
+                  <h4 class="primaryButton signup">
+                    <ul class="current0">
+                    Sign Up
+                    </ul>
+                </h4>
+                </Link>
             </div>
           </div>
         </div>
@@ -34,11 +38,13 @@ export default class Default extends Component {
             Headlines
           </h1>
           <h4>Stay up to date and make your perspective heard.</h4>
+          <Link to='/signup'>
           <h4 class="primaryButton mainCTA">
             <ul class="current0">
-              <a href="signup.html">Let's Go</a>
+              Let's Go
             </ul>
           </h4>
+          </Link>
         </div>
         <div class="news">
           <div class="today">
