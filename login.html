@@ -2,13 +2,16 @@
 <html lang = "eng" dir ="ltr">
     <head>
         <link rel="stylesheet" href="./css/style.css" media="screen"/>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+        <script src = "form.js"></script>
     </head>
     <body>
         <div class = "header">
             <div class="container">
                 <h3 class="title"><a href="default.html"><span class="accentText">H</span>eadline</a></h3>
                 <div class = "buttons">
-                    <h4 class="primaryButton signup">Sign Up</h4>
+                    <h4 class="primaryButton signup"><ul class="current0"><a href="signup.html">Sign Up</a></ul></h4>
                 </div>
             </div>
         </div>
@@ -24,7 +27,7 @@
                     <p class = "text">Password</p>
                 </div>
                   <input type="password" name="password" id="password-field" class="login-form-field">
-                  <input type="submit" value="Login" id="login-form-submit">
+                  <input type="submit" onclick="login()" value="Login" id="login-form-submit">
                 </form>
             </main>
         </div>

@@ -2,6 +2,9 @@
 <html lang = "eng" dir ="ltr">
     <head>
         <link rel="stylesheet" href="./css/style.css" media="screen"/>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+        <script src = "form.js"></script>
     </head>
     <body>
         <div class = "header">
@@ -20,11 +23,11 @@
                     <div class = "login-info">
                         <p class = "text">First Name</p>
                     </div>
-                  <input type="text" name="username" id="username-field" class="login-form-field">
+                  <input type="text" name="username" id="firstname-field" class="login-form-field">
                   <div class = "login-info">
                     <p class = "text">Last Name</p>
                   </div>   
-                  <input type="text" name="username" id="username-field" class="login-form-field">  
+                  <input type="text" name="username" id="lastname-field" class="login-form-field">  
                   <div class = "login-info">
                     <p class = "text">Email Id</p>
                   </div>   
@@ -33,7 +36,7 @@
                     <p class = "text">Password</p>
                 </div>
                   <input type="password" name="password" id="password-field" class="login-form-field">
-                  <input type="submit" value="Sign Up" id="login-form-submit">
+                  <button onclick="signUp()" id="signUp"><input type="submit" value="Sign Up" id="login-form-submit"></button>
                 </form>
             </main>
         </div>
