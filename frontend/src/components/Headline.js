@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import './style.css';
+import downArrowGray from './images/downArrowGray.png';
+import upArrowGray from './images/upArrowGray.png';
+import downArrowGreen from './images/downArrowGreen.png';
+import upArrowGreen from './images/upArrowGreen.png';
 
 export default class Login extends Component {
     constructor(props) {
@@ -63,8 +67,8 @@ export default class Login extends Component {
                         </div>
                         <div class="upDownVote">
                             <div class="arrows">
-                                <img src="images/upArrowGray.png" width="20"/>
-                                <img class="bottomArrow" src="images/downArrowGray.png" width="20"/>
+                                <img src={upArrowGray} width="20"/>
+                                <img class="bottomArrow" src={downArrowGray} width="20"/>
                             </div>
                             <h3 class="score">25</h3>
                         </div>
@@ -79,8 +83,8 @@ export default class Login extends Component {
                         </div>
                         <div class="upDownVote">
                             <div class="arrows">
-                                <img src="images/upArrowGray.png" width="20"/>
-                                <img class="bottomArrow" src="images/downArrowGray.png" width="20"/>
+                                <img src={upArrowGray} width="20"/>
+                                <img class="bottomArrow" src={downArrowGray} width="20"/>
                             </div>
                             <h3 class="score">25</h3>
                         </div>

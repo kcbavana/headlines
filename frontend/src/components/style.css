@@ -311,6 +311,7 @@ input:focus {
     margin:10% 20% 10% 20%;
 }
 .commentButton {
+    margin-top: 2%;
     float:right;
 }
 

@@ -12,7 +12,7 @@ export default class Signup extends Component {
             <div>
                 <div className="header">
                 <div className="container">
-                    <Link to='/'><h3 className="title"><span className="accentText">H</span>eadline</h3></Link>
+                    <Link to='/'><h2 className="title"><span className="accentText">H</span>eadline</h2></Link>
                     <div className="buttons">
                     <Link to='/login'><h4 className="secondaryButton login">Log in</h4></Link>
                     </div>
