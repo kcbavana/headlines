@@ -52,7 +52,7 @@ export default class Default extends Component {
             <div className="today">
                 <div className="titleLeft"><h3>Today's Headlines</h3></div>
                 <div className="headlines">
-                <Link to="/headlines"><h5 className="headlineCard">Sample Headline</h5></Link>
+                
                 </div>
             <div>
               {listitems}
@@ -61,7 +61,7 @@ export default class Default extends Component {
             <div className="past">
                 <h3 className="titleLeft">Past Headlines</h3>
                 <div className="headlines">
-                <Link to="/headlines"><h5 className="headlineCard">Sample Headline</h5></Link>
+                
                 </div>
             </div>
             </div>

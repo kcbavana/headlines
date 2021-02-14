@@ -7,7 +7,7 @@ import downArrowGreen from './images/downArrowGreen.png';
 import upArrowGreen from './images/upArrowGreen.png';
 // import pieChart from "./components/PieChart";
 
-export default class Login extends Component {
+export default class Headline extends Component {
     constructor(props) {
       super(props);
     }
@@ -27,17 +27,17 @@ export default class Login extends Component {
 
         <div class="articleTitle">
             <Link to="/"> <a href="default.html"><h4>Back to all Headlines.</h4></a></Link>
-            <h1>[Article Title] Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-            <p><b>Posted on January 1, 2021</b></p>
+            <h1>Silicon Valley’s Safe Space</h1>
+            <p><b>Posted on February 13, 2021</b></p>
         </div>
         <div class="sources">
             <div class="sourceCard source1">
                 <h4>New York Times</h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non.</p>
+                <p>Slate Star Codex was a window into the psyche of many tech leaders building our collective future. Then it disappeared.<br/>...</p>
             </div>
             <div class="sourceCard source2">
-                <h4>Wall Street Journal</h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non.</p>
+                <h4>Deccan Herald</h4>
+                <p>It was nominally a blog, written by a Bay Area psychiatrist who called himself Scott Alexander<br />...</p>
             </div>
 
         </div>
@@ -49,20 +49,20 @@ export default class Login extends Component {
                 <h4 class="secondaryButton vote">Neutral</h4>
                 <h4 class="secondaryButton vote vote3">Disapprove</h4>
             </div>
-            <canvas id="votingChart" width="600" height="200"></canvas>
+            
         </div>
 
         <div class="commentSection">
             <form action="" method="post" class="commentForm">
                 <input type="text" name="reply" id="reply" 
-                value="share your thoughts..." onfocus=" this.value='';"
+                value="Share your thoughts..." onfocus=" this.value='';"
                 rows="10" tabindex="1" required="required"/>
                 <h4 class="primaryButton commentButton">Comment</h4>
             </form>
             <div class="prevComments">
                 <div class="prevComment">
                     <div class="commentContent">
-                        <p><b>Eric</b></p> 
+                        <p><b>Eric M.</b></p> 
                         <div class="commentText">
                             <p>This twitter thread is interesting and relevant: <a href="https://twitter.com">twitter.com</a></p>
                         </div>
@@ -78,16 +78,16 @@ export default class Login extends Component {
                 </div>
                 <div class="prevComment">
                     <div class="commentContent">
-                        <p><b>Eric</b></p> 
+                        <p><b>Emily P.</b></p> 
                         <div class="commentText">
-                            <p>This twitter thread is interesting and relevant: <a href="https://twitter.com">twitter.com</a></p>
+                            <p>I like how a wide range of topics are accepted with Slate Star Codex.</p>
                         </div>
                         <div class="upDownVote">
                             <div class="arrows">
                                 <img src={upArrowGray} width="20"/>
                                 <img class="bottomArrow" src={downArrowGray} width="20"/>
                             </div>
-                            <h3 class="score">25</h3>
+                            <h3 class="score">3</h3>
                         </div>
                     </div>
                     <hr/>
