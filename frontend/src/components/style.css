@@ -14,11 +14,14 @@ body {
     font-family: 'Cabin', sans-serif;
     color: var(--black);
 
-    background-color:var(--white);
+    background-color:var(--light-gray);
 
 }
 /*general fonts*/
 h1 {
+    font-weight: 1000;
+}
+h2 {
     font-weight: 1000;
 }
 h3 {
@@ -54,9 +57,10 @@ ul {
 }
 /*nav bar*/
 .header {
-    margin-right:10%;
-    margin-left:10%;
-    margin-top: 2%;
+    
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
+    background-color: var(--white);
 
 }
 
@@ -136,10 +140,11 @@ ul {
     margin-bottom: 1%;
     border:0.15rem solid var(--light-gray);
     border-radius: 0.5rem;
-    width: 80%;
+    width: 90%;
     padding: 1rem 0 1rem 2rem;
     color: var(--black);
     text-align: left;
+    background-color: var(--white);
 
 }
 
@@ -211,7 +216,7 @@ ul {
     background-color: var(--black);
     padding:1rem 0rem 1rem 0rem;
     width: 100%;
-    position:absolute;
+  
     bottom: 0;
   
 }
@@ -230,7 +235,7 @@ button a {
 }
 /*Individual Headline Page*/
 .articleTitle {
-    padding: 10% 20% 2% 20%;
+    padding: 5% 20% 2% 20%;
 }
 .articleTitle h4{
     text-decoration: underline;
